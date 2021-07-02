@@ -2,6 +2,10 @@
   text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 20px #000000;
 }
 
+.header, .main, .left-sidebar {
+  margin-bottom: 80.0px;
+}
+
 .navbar-inverse {
   margin-bottom: 0;
   border-color: transparent;
@@ -33,6 +37,35 @@
 .navbar-toggle {
   float: none;
   margin-right: 0;
+}
+
+.panel {
+  background-color: #ededed;
+}
+
+.panel:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+
+.panel:last-of-type {
+  margin-bottom: 0;
+}
+
+.panel-info {
+  border: none;
+}
+
+.panel-info > .panel-heading {
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  border: none;
+  background-color: #df8a13;
+  font-size: 1.25rem;
+}
+
+.panel-body {
+  border: 1px solid #d5d5d5;
+  border-radius: 0 0 4px 4px;
 }
 
 html {
@@ -79,6 +112,15 @@ a:hover, a:focus {
   font-size: 1.15rem;
   letter-spacing: 0.2em;
   margin-right: -0.2em;
+}
+
+.vertical-slider {
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.vertical-slider__image {
+  width: 100%;
 }
 
 @media (min-width: 576px) {

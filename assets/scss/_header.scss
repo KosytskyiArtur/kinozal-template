@@ -1,10 +1,12 @@
 .header {
-
+  @extend %margin-bottom-lg;
 }
 
 .header-logo {
   padding: 100px 0;
+
   text-align: center;
+  
   background-color: $color-black;
   background-image: url(../img/header-bg.jpg);
   background-position: center;
@@ -12,12 +14,17 @@
 
   &__title {
     display: block;
+
     color: $color-accent;
+
     @extend %text-shadow;
+
     font-family: $font-header;
+
     letter-spacing: 0.33em;
+
     margin-right: -0.33em;
-    
+
     @include xs-min {
       font-size: 3.5rem;
     }
@@ -28,10 +35,15 @@
 
   &__description {
      display: block;
+
      color: $color-white;
+
      @extend %text-shadow;
+
      font-size: 1.15rem;
+
      letter-spacing: 0.2em;
+
      margin-right: -0.2em;
   }
 }
