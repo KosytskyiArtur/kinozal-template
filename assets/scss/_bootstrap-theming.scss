@@ -73,25 +73,25 @@
   &:last-of-type {
     margin-bottom: 0;
   }
-}
 
-.panel-info {
-  border: none;
-}
+  &-info {
+    border: none;
 
-.panel-info > .panel-heading {
-  letter-spacing: 0.08em;
+    > .panel-heading {
+      letter-spacing: 0.08em;
 
-  color: $color-white;
-  border: none;
-  background-color: $color-accent;
+      color: $color-white;
+      border: none;
+      background-color: $color-accent;
 
-  font-size: 1.25rem;
-}
+      font-size: 1.25rem;
+    }
+  }
 
-.panel-body {
-  border: 1px solid $color-gray;
-  border-radius: 0 0 4px 4px;
+  &-body {
+    border: 1px solid $color-gray;
+    border-radius: 0 0 4px 4px;
+  }
 }
 
 .input {
