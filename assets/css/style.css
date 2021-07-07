@@ -442,6 +442,25 @@ section {
           transform: translateY(-50%);
 }
 
+.footer {
+  padding-top: 45px;
+  color: #d5d5d5;
+  background-color: #232323;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer a {
+  color: #6f6f6f;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
 @media (min-width: 576px) {
   h1 {
     margin: -10.0px 0 1em 0;

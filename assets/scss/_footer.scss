@@ -1,0 +1,20 @@
+.footer {
+  padding-top: $gap * 3;
+
+  color: $color-gray;
+  background-color: $color-dark;
+
+  ul {
+    padding: 0;
+
+    list-style: none;
+  }
+
+  a {
+    color: $color-gray-dark;
+
+    &:hover {
+      color: $color-white;
+    }
+  }
+}
