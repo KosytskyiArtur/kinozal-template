@@ -444,7 +444,6 @@ section {
 
 .footer {
   padding-top: 45px;
-  padding-bottom: 45px;
   color: #d5d5d5;
   background-color: #232323;
 }
@@ -460,6 +459,15 @@ section {
 
 .footer a:hover {
   color: #ffffff;
+}
+
+.footer-fifth {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.footer-fifth a {
+  color: #d5d5d5;
 }
 
 @media (min-width: 576px) {

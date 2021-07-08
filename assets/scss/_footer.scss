@@ -1,6 +1,5 @@
 .footer {
   padding-top: $gap * 3;
-  padding-bottom: $gap * 3;
 
   color: $color-gray;
   background-color: $color-dark;
@@ -17,5 +16,15 @@
     &:hover {
       color: $color-white;
     }
+  }
+}
+
+.footer-fifth {
+  margin: 20px 0;
+
+  text-align: center;
+
+  a {
+    color: $color-gray;
   }
 }
